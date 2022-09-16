@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+}
+.btn--login{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.btn--login:hover{
+    background-color: black;
+    color: yellow;
+}
+.overlay{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal{
+    border-radius: 5px;
+    position: fixed;
+    inset: 140px 450px;
+    padding:20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    z-index: 100;
+}
+.modal-content{
+    
+}
+.modal-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 8px;
+}
+.modal-head__title{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.time-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.form{
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+}
+.hide{
+    display: none;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}   
+.form-group:last-child{
+    margin-top: 30px;
+}
+.form-check{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+label{
+    font-size: 20px;
+    padding: 5px 0;
+}
+input{
+    padding: 5px 10px;
+    outline: none;
+}
+.forget-pass{
+    font-size: 20px;
+}
+[type="submit"]{
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: inherit;
+    background-color: white;
+}

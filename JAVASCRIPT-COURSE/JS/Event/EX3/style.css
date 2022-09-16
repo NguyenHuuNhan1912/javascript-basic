@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.main{
+    margin: 100px 500px;
+}
+.menu-tab{
+    padding: 20px;
+    box-shadow: 0 0 15px 5px grey;
+}
+.menu-tab-head{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color: rgb(96, 96, 250);
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.btn--1{
+    /* pointer-events: none; */
+}
+.btn:hover{
+    background-color: black;
+}
+.menu-tab-body{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.hide{
+    display: none;
+}

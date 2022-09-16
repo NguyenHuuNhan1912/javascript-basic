@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.main{
+    margin: 100px 500px;
+    
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-head {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.dropdown-body{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid blue;
+    position: absolute;
+    width: 100%;
+}
+.nav-list{
+    margin-top: 20px;
+    background-color: rgb(85, 62, 107);
+}
+.nav-item{
+    padding: 10px;
+}
+.hide{
+    display: none;
+}

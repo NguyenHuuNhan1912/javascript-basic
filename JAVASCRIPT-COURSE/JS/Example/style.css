@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(39, 35, 35);
+}
+.inbox {
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    position: relative;
+    border-radius: 5px;
+    transition: all 0.4s linear;
+}
+.inbox:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+.inbox:hover > .caret-icon {
+    color: white;
+}
+.caret-icon {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: -22px;
+    left: 30px;
+    color: blueviolet;
+    transition: all 0.4s linear;
+}
